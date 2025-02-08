@@ -13,15 +13,15 @@ public class CalculadoraDeAdicao {
 		
 		JOptionPane.showMessageDialog(null, "Calculadora de Soma entre dois valores:");
 		
-		entrada = JOptionPane.showInputDialog("Insita o primeiro valor: ");		
+		entrada = JOptionPane.showInputDialog("Insira o primeiro valor: ");		
 		numero1 = Integer.parseInt(entrada);
 		
-		entrada = JOptionPane.showInputDialog("Insita o segundo valor: ");
+		entrada = JOptionPane.showInputDialog("Insira o segundo valor: ");
 		numero2 = Integer.parseInt(entrada);
 		
 		resultado = numero1 + numero2;
 		
-		resultado2 = String.format("O resultado final é de: %s", resultado);
+		resultado2 = String.format("O resultado final é: %s", resultado);
 		
 		JOptionPane.showMessageDialog(null, resultado2);		
 		
